@@ -14,7 +14,7 @@ const Home = () => {
           <ModalBody>
         <div>
           <div className='row  rowtitle'>
-      <h2 className="pb-1">Personal Details</h2></div>
+      <h2 className="pb-1 font-weight-bolder">Personal Details</h2></div>
        <Row className="border rowcontent">
           <Col md='2'>
              <div className="d-flex flex-column">
@@ -127,53 +127,56 @@ const Home = () => {
 
     <div>
           <div className='row  rowtitle'>
-      <h2 className="pb-1">Documentation Details</h2></div>
+      <h2 className="pb-1 font-weight-bolder">Documentation Details</h2></div>
       <Row className="border rowcontent">
         <Col md='3'>
           <div className="d-flex flex-column align-items-center">
-            <h3 className="" style={{ fontSize: '16px' }}>Aadhaar Front</h3>
-           
-            <img
+            <h3 className="font-weight-bolder" style={{ fontSize: '16px' }}>Aadhaar Front</h3>
+           <div className='colcontentImg'>
+            <img className='colImage1'
               src="https://hotofer.b-cdn.net/wp-content/uploads/2022/05/PVC-Aadhar-Card-Front-Image-300x189.png"
               alt="Image 1"
-              style={{ height: '100px', width: '120px' }}
-            />
-            <p>1234 1234 1234</p>
+
+            /></div>
+            <p className="font-weight-bold">1234 1234 1234</p>
           </div>
         </Col>
         <Col md='3'>
           <div className="d-flex flex-column align-items-center">
-            <h3 className="" style={{ fontSize: '16px' }}>Aadhaar Back</h3>
+            <h3 className="font-weight-bolder" style={{ fontSize: '16px' }}>Aadhaar Back</h3>
            
-            <img
+            <div className='colcontentImg'>
+            <img className='colImage1'
               src="https://hotofer.b-cdn.net/wp-content/uploads/2022/05/PVC-Aadhar-Card-Back-Image.png"
               alt="Image 1"
               style={{ height: '100px', width: '120px' }}
-            />
-            <p>1234 1234 1234</p>
+            /></div>
+            <p className="font-weight-bold">1234 1234 1234</p>
           </div>
         </Col>
         <Col md='3'>
           <div className="d-flex flex-column align-items-center">
-            <h3 className="" style={{ fontSize: '16px' }}>PAN Card</h3>
+            <h3 className="font-weight-bolder" style={{ fontSize: '16px' }}>PAN Card</h3>
             
-            <img
+            <div className='colcontentImg'>
+            <img className='colImage1'
               src="https://4.imimg.com/data4/TB/OF/ANDROID-35807128/product-250x250.jpeg"
               alt="Image 1"
               style={{ height: '100px', width: '120px' }}
-            />
-            <p>DAS13HT5</p>
+            /></div>
+            <p className="font-weight-bold">DAS13HT5</p>
           </div>
         </Col>
         <Col md='3'>
           <div className="d-flex flex-column align-items-center">
-            <h3 className="" style={{ fontSize: '16px' }}>Qualification</h3>
-            <img
+            <h3 className="font-weight-bolder" style={{ fontSize: '16px' }}>Qualification</h3>
+           <div className='colcontentImg'>
+            <img className='colImage1'
               src="https://cdn.slidesharecdn.com/ss_thumbnails/135f83ee-2fb6-484f-89e5-45a7f3f9858c-160318095134-thumbnail-4.jpg?cb=1458294711"
               alt="Image 1"
-              style={{ height: '110px', width: '100px' }}
-            />
-            <p>B.tech</p>
+              style={{ height: '120px', width: '100px' }}
+            /></div>
+            <p className="font-weight-bold">B.tech</p>
           </div>
         </Col>
       </Row>
@@ -181,19 +184,19 @@ const Home = () => {
 
     <div>
     <div className='row  rowtitle'>
-      <h2 className="pb-1">Payment Details</h2></div>
+      <h2 className="pb-1 font-weight-bolder">Payment Details</h2></div>
        <Row className="border rowcontent">
       <Col md='2' >
         <div className="d-flex flex-column">
 
           <div className="d-flex  justify-content-start  pb-2 ">
-            <div className=" font-weight-bold">Bank Name</div>
+            <div className=" font-weight-bolder">Bank Name</div>
           </div>
           <div className="d-flex  justify-content-start  pb-2">
-            <div className=" font-weight-bold">Branch Name</div>
+            <div className=" font-weight-bolder">Branch Name</div>
           </div>
           <div className="d-flex  justify-content-start  pb-2">
-            <div className=" font-weight-bold">IFSE Code</div>
+            <div className=" font-weight-bolder">IFSE Code</div>
           </div>
 
         </div>
