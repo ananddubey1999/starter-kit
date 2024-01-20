@@ -14,10 +14,10 @@ const Home = () => {
           <ModalBody>
         <div>
           <div className='row  rowtitle'>
-      <h2 className="pb-1 font-weight-bolder">Personal Details</h2></div>
+      <h2 className=" font-weight-bolder">Personal Details</h2></div>
        <Row className="border rowcontent">
           <Col md='2'>
-             <div className="d-flex flex-column">
+             <div className="d-flex flex-column ">
     <div className="d-flex justify-content-start  pb-1">
       <div className="font-weight-bolder ">Full Name</div>
     </div>
@@ -94,7 +94,7 @@ const Home = () => {
     </div>
   </div>
 </Col>
-<Col md='2'>
+<Col md='3'>
   <div className="d-flex flex-column">
     <div className="d-flex justify-content-start  pb-1">
       <div className="font-weight-bold">Sales Manager</div>
@@ -116,7 +116,7 @@ const Home = () => {
     </div>
   </div>
 </Col>
-<Col md='3'>
+<Col md='2' className="d-flex justify-content-end">
     {/* New column for the image */}
     <div  className="d-flex justify-content-center align-items-center rowcontentImg">
       <img src="https://avatars.githubusercontent.com/u/988934?v=4"alt="Profile " className='Image1'/>
@@ -127,7 +127,7 @@ const Home = () => {
 
     <div>
           <div className='row  rowtitle'>
-      <h2 className="pb-1 font-weight-bolder">Documentation Details</h2></div>
+      <h2 className=" font-weight-bolder">Documentation Details</h2></div>
       <Row className="border rowcontent">
         <Col md='3'>
           <div className="d-flex flex-column align-items-center">
@@ -149,7 +149,7 @@ const Home = () => {
             <img className='colImage1'
               src="https://hotofer.b-cdn.net/wp-content/uploads/2022/05/PVC-Aadhar-Card-Back-Image.png"
               alt="Image 1"
-              style={{ height: '100px', width: '120px' }}
+        
             /></div>
             <p className="font-weight-bold">1234 1234 1234</p>
           </div>
@@ -162,7 +162,6 @@ const Home = () => {
             <img className='colImage1'
               src="https://4.imimg.com/data4/TB/OF/ANDROID-35807128/product-250x250.jpeg"
               alt="Image 1"
-              style={{ height: '100px', width: '120px' }}
             /></div>
             <p className="font-weight-bold">DAS13HT5</p>
           </div>
@@ -184,7 +183,7 @@ const Home = () => {
 
     <div>
     <div className='row  rowtitle'>
-      <h2 className="pb-1 font-weight-bolder">Payment Details</h2></div>
+      <h2 className=" font-weight-bolder">Payment Details</h2></div>
        <Row className="border rowcontent">
       <Col md='2' >
         <div className="d-flex flex-column">
@@ -205,13 +204,13 @@ const Home = () => {
         <div className="d-flex flex-column">
 
           <div className="d-flex  justify-content-start  pb-2 ">
-            <div>ICICI Bank</div>
+            <div className="font-weight-bold">ICICI Bank</div>
           </div>
           <div className="d-flex  justify-content-start  pb-2">
-            <div >Medical College</div>
+            <div className="font-weight-bold">Medical College</div>
           </div>
           <div className="d-flex  justify-content-start  pb-2">
-            <div >ICI0000465</div>
+            <div className="font-weight-bold">ICI0000465</div>
           </div>
         </div>
       </Col>
@@ -219,10 +218,10 @@ const Home = () => {
         <div className="d-flex flex-column">
 
           <div className="d-flex  justify-content-start  pb-2 ">
-            <div className=" font-weight-bold">Account Holder</div>
+            <div className=" font-weight-bolder">Account Holder</div>
           </div>
           <div className="d-flex  justify-content-start  pb-2">
-            <div className=" font-weight-bold">Account Number</div>
+            <div className=" font-weight-bolder">Account Number</div>
           </div>
 
         </div>
@@ -231,10 +230,10 @@ const Home = () => {
         <div className="d-flex flex-column">
 
           <div className="d-flex  justify-content-start  pb-2 ">
-            <div>Anand Dubey</div>
+            <div className="font-weight-bold">Anand Dubey</div>
           </div>
           <div className="d-flex  justify-content-start  pb-2">
-            <div >12345678091</div>
+            <div className="font-weight-bold">12345678091</div>
           </div>
         </div>
       </Col>
@@ -242,7 +241,8 @@ const Home = () => {
     </div>
 
     <div>
-      <h2 className="pb-2" style={{ fontSize: '20px', textDecoration: 'underline' }}>Privilege Details</h2>
+          <div className='row  rowtitle'>
+      <h2 className=" font-weight-bolder">Privilege Details</h2></div>
        <Row className="border rowcontent">
       <Col md='2' >
         <div className="d-flex flex-column">

@@ -1,16 +1,20 @@
-/* styles.css */
+/* styles.css rgba(121, 97, 249, 1)  rgb(151, 138, 225); */
 
 .rowtitle {
-    background-color: #7c7c7c; /* Light gray background color */
+    background-color: #7c7c7c; 
+    /* background-color: #f1a179;  */
     border: 1px solid #ddd; /* Add border for better separation */
-    margin: 5px 0; /* Add some margin for spacing */
+    margin: 5px 0 ; /* Add some margin for spacing */
     padding: 10px; /* Adjust padding as needed */
-    border-radius: 8px; /* Add border-radius for rounded corners */
+    border-top-right-radius: 8px; /* Add border-radius for rounded corners */
+    border-top-left-radius: 8px;
+    margin-bottom: 0
   }
   
   .rowtitle h2 {
     font-size: 20px;
     color: white;
+    /* color: black; */
     margin: 0; /* Remove default margin for the heading */
   }
   
@@ -20,9 +24,11 @@
 .rowcontent {
     background-color: #eeeded; /* Light background color */
     border: 1px solid #ddd; /* Add border for better separation */
-    margin: 5px 0; /* Add some margin for spacing */
+    margin: 8px 0; /* Add some margin for spacing */
     padding: 15px; /* Adjust padding as needed */
-    border-radius: 8px; /* Add border-radius for rounded corners */
+    border-bottom-right-radius: 8px; /* Add border-radius for rounded corners */
+    border-bottom-left-radius: 8px;
+    margin-top: 0;
   }
   
   /* Styling for the text content */
@@ -57,7 +63,7 @@
 
 /* Existing styles for colImage1 */
 .colcontentImg .colImage1 {
-    width: 130px;
+    width: 150px;
     height: 100px;
     object-fit: cover;
     border-radius: 5%;
