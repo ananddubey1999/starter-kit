@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Row, Col } from 'reactstrap'
-
+import "./Home.css"
 const Home = () => {
   const [centeredModal, setCenteredModal] = useState(false) 
   return (
@@ -13,120 +13,122 @@ const Home = () => {
           <ModalHeader toggle={() => setCenteredModal(!centeredModal)}>User detail</ModalHeader>
           <ModalBody>
         <div>
-      <h2 className="pb-1" style={{ fontSize: '20px', textDecoration: 'underline' }}>Personal Details</h2>
-       <Row className="border">
+          <div className='row  rowtitle'>
+      <h2 className="pb-1">Personal Details</h2></div>
+       <Row className="border rowcontent">
           <Col md='2'>
              <div className="d-flex flex-column">
-    <div className="d-flex justify-content-start border-bottom pb-1">
+    <div className="d-flex justify-content-start  pb-1">
       <div className="font-weight-bolder ">Full Name</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Email</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder ">Email</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Contact Number</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Contact Number</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Date of Birth</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Date of Birth</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Date of Join</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Date of Join</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Gender</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Gender</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Marital Status</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Marital Status</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Address</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Address</div>
     </div>
   </div>
 </Col>
           <Col md='3'>
              <div className="d-flex flex-column">
-    <div className="d-flex justify-content-start border-bottom pb-1">
+    <div className="d-flex justify-content-start  pb-1">
       <div className="font-weight-bolder ">Anand Dubey</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div>dubeyanand19d@gmail.com </div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">dubeyanand19d@gmail.com </div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div>7379772846 </div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">7379772846 </div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div>19/10/1999 </div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">19/10/1999 </div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div>09/10/2024 </div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">09/10/2024 </div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div>Male</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">Male</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div>Single</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">Single</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div>Medical Road , Gorakhpur , Uttar Pradesh,273013</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">Medical Road , Gorakhpur , Uttar Pradesh,273013</div>
     </div>
   </div>
 </Col>
           <Col md='2'>
              <div className="d-flex flex-column">
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Roll</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Roll</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Team</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Team</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Region</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Region</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Branch</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Branch</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Pos Code</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Pos Code</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="font-weight-bold ">Refer Code</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bolder">Refer Code</div>
     </div>
   </div>
 </Col>
 <Col md='2'>
   <div className="d-flex flex-column">
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div >Sales Manager</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">Sales Manager</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div >POS</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">POS</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div >North-East</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">North-East</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div >North</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">North</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div >SIBPL/POS/10009</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">SIBPL/POS/10009</div>
     </div>
-    <div className="d-flex justify-content-start border-bottom pb-1">
-      <div >EMA/HR/876</div>
+    <div className="d-flex justify-content-start  pb-1">
+      <div className="font-weight-bold">EMA/HR/876</div>
     </div>
   </div>
 </Col>
 <Col md='3'>
     {/* New column for the image */}
-    <div  className="d-flex justify-content-center align-items-center">
-      <img src="https://avatars.githubusercontent.com/u/988934?v=4"alt="Profile"style={{ width: '180px', height: '230px', objectFit: 'cover' }}/>
+    <div  className="d-flex justify-content-center align-items-center rowcontentImg">
+      <img src="https://avatars.githubusercontent.com/u/988934?v=4"alt="Profile " className='Image1'/>
     </div>
   </Col>
     </Row>
     </div>
 
     <div>
-      <h2 className="pb-2" style={{ fontSize: '20px', textDecoration: 'underline' }}>Documentation Details</h2>
-      <Row className="border">
+          <div className='row  rowtitle'>
+      <h2 className="pb-1">Documentation Details</h2></div>
+      <Row className="border rowcontent">
         <Col md='3'>
           <div className="d-flex flex-column align-items-center">
             <h3 className="" style={{ fontSize: '16px' }}>Aadhaar Front</h3>
@@ -178,18 +180,19 @@ const Home = () => {
     </div>
 
     <div>
-      <h2 className="pb-2" style={{ fontSize: '20px', textDecoration: 'underline' }}>Payment Details</h2>
-       <Row className="border">
+    <div className='row  rowtitle'>
+      <h2 className="pb-1">Payment Details</h2></div>
+       <Row className="border rowcontent">
       <Col md='2' >
         <div className="d-flex flex-column">
 
-          <div className="d-flex  justify-content-start border-bottom pb-2 ">
+          <div className="d-flex  justify-content-start  pb-2 ">
             <div className=" font-weight-bold">Bank Name</div>
           </div>
-          <div className="d-flex  justify-content-start border-bottom pb-2">
+          <div className="d-flex  justify-content-start  pb-2">
             <div className=" font-weight-bold">Branch Name</div>
           </div>
-          <div className="d-flex  justify-content-start border-bottom pb-2">
+          <div className="d-flex  justify-content-start  pb-2">
             <div className=" font-weight-bold">IFSE Code</div>
           </div>
 
@@ -198,13 +201,13 @@ const Home = () => {
       <Col md='2' >
         <div className="d-flex flex-column">
 
-          <div className="d-flex  justify-content-start border-bottom pb-2 ">
+          <div className="d-flex  justify-content-start  pb-2 ">
             <div>ICICI Bank</div>
           </div>
-          <div className="d-flex  justify-content-start border-bottom pb-2">
+          <div className="d-flex  justify-content-start  pb-2">
             <div >Medical College</div>
           </div>
-          <div className="d-flex  justify-content-start border-bottom pb-2">
+          <div className="d-flex  justify-content-start  pb-2">
             <div >ICI0000465</div>
           </div>
         </div>
@@ -212,10 +215,10 @@ const Home = () => {
       <Col md='2' >
         <div className="d-flex flex-column">
 
-          <div className="d-flex  justify-content-start border-bottom pb-2 ">
+          <div className="d-flex  justify-content-start  pb-2 ">
             <div className=" font-weight-bold">Account Holder</div>
           </div>
-          <div className="d-flex  justify-content-start border-bottom pb-2">
+          <div className="d-flex  justify-content-start  pb-2">
             <div className=" font-weight-bold">Account Number</div>
           </div>
 
@@ -224,10 +227,10 @@ const Home = () => {
       <Col md='2' >
         <div className="d-flex flex-column">
 
-          <div className="d-flex  justify-content-start border-bottom pb-2 ">
+          <div className="d-flex  justify-content-start  pb-2 ">
             <div>Anand Dubey</div>
           </div>
-          <div className="d-flex  justify-content-start border-bottom pb-2">
+          <div className="d-flex  justify-content-start  pb-2">
             <div >12345678091</div>
           </div>
         </div>
@@ -237,7 +240,7 @@ const Home = () => {
 
     <div>
       <h2 className="pb-2" style={{ fontSize: '20px', textDecoration: 'underline' }}>Privilege Details</h2>
-       <Row className="border">
+       <Row className="border rowcontent">
       <Col md='2' >
         <div className="d-flex flex-column">
 

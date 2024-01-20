@@ -1,0 +1,57 @@
+/* styles.css */
+
+.rowtitle {
+    background-color: #7c7c7c; /* Light gray background color */
+    border: 1px solid #ddd; /* Add border for better separation */
+    margin: 5px 0; /* Add some margin for spacing */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+  }
+  
+  .rowtitle h2 {
+    font-size: 20px;
+    color: white;
+    margin: 0; /* Remove default margin for the heading */
+  }
+  
+  /* styles.css */
+
+/* Custom styling for the entire row */
+.rowcontent {
+    background-color: #eeeded; /* Light background color */
+    border: 1px solid #ddd; /* Add border for better separation */
+    margin: 5px 0; /* Add some margin for spacing */
+    padding: 15px; /* Adjust padding as needed */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+  }
+  
+  /* Styling for the text content */
+  .rowcontent .font-weight-bolder {
+    font-weight: bold;
+    color: #333; /* Darker text color */
+  }
+  
+  .rowcontent .font-weight-bold {
+    font-weight: bold;
+  }
+  
+  /* Styling for the image */
+  .rowcontent .rowcontentImg {
+    width:200px ;
+    height: 230px;
+    object-fit:cover;
+    border-radius: 5%; /* Make the image circular */
+    border: 3px solid #fff; /* Add a white border around the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+  }
+  .rowcontent .Image1 {
+    width:200px ;
+    height: 230px;
+    object-fit:cover;
+    border-radius: 5%; /* Make the image circular */
+    border: 3px solid #fff; /* Add a white border around the image */
+ /* Add a subtle shadow */
+  }
+  
+  /* Additional styles if needed */
+  /* style={{ width: '180px', height: '230px', objectFit: 'cover' }} */
