@@ -1,7 +1,7 @@
 import React from "react"
-import { Row, Col, Button, Form } from "react-bootstrap"
+import { Row, Col, Button, Form, Dropdown, DropdownButton } from "react-bootstrap"
 
-import "./SecondPage.css"
+import "./SecondPage2.css"
 
 const SecondPage = () => {
   return (
@@ -11,58 +11,40 @@ const SecondPage = () => {
           {/* New column with a container */}
           <div className="d-flex flex-column ">
             <Row>
-              <Col md="8">
-                {/* Title and paragraph */}
+              <Col md="12">
+                <Row>
                 <div className="d-flex justify-content-start ">
                 <h2 className="font-weight-bolder underline-title">
                   Go back to quots
                 </h2>
               </div>
-                <div className="d-flex justify-content-start">
-                  <h4 className="font-weight-bolder">Max Saver 2.0</h4>
-                </div>
-                <div className="d-flex justify-content-start">
-                  <div>
-                    10 Lacs - ReAssure Bronze+90 Lacs - Health Recharge
-                  </div>
-                </div>
+                </Row>
+                {/* ----------------------------Policy Period------------------ */}
+                <div className='row  rowtitle'>
+                <h2 className=" font-weight-bolder">Max Saver 2.0</h2></div>
+                <div className="container-content2">
+      <Row>
+        {/* First Column: Paragraph and Button */}
+        <Col md="8">
+          <div className="paragraph-container">
+            <p>10 Lacs - ReAssure Bronze + 90 Lacs - Health Recharge.</p>
+            <Button className="button">View all features</Button>
+          </div>
+        </Col>
 
-                {/* Two buttons */}
-                <div className="d-flex justify-content-start  mt-3">
-                  <button className="btn btn-primary">View all features</button>
-                </div>
-              </Col>
-
-              {/* Second column */}
-              <Col md="4" className="d-flex justify-content-center">
-                {/* Image */}
-                <img
-                  src="https://tse3.mm.bing.net/th/id/OIP.4Ff0xGU9g63uTvS_AOtlQwAAAA?rs=1&pid=ImgDetMain"
-                  alt="Image"
-                  className="image-with-shadow"
-                />
-              </Col>
-              <Col md="12">
+        {/* Second Column: Image */}
+        <Col md="4">
+          <div className="image-container8">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.4Ff0xGU9g63uTvS_AOtlQwAAAA?rs=1&pid=ImgDetMain" alt="Your Image" className="center-image" />
+          </div>
+        </Col>
+      </Row>
+    </div>
+                {/* ----------------------------Policy Period------------------ */}
+                <div className='row  rowtitle'>
+                <h2 className=" font-weight-bolder">Policy Period</h2></div>
                 <div className="container-content2">
                   {/* Title and paragraph */}
-                  <div className="d-flex justify-content-start">
-                    <h4 className="font-weight-bolder">
-                      Cover Amount - ₹1 Crore
-                    </h4>
-                  </div>
-                  <div className="d-flex justify-content-start">
-                    <div>
-                      You get 1 Crore health cover at a very affordable price.
-                      No catch and complete peace of mind.
-                    </div>
-                  </div>
-                </div>
-
-                <div className="container-content2">
-                  {/* Title and paragraph */}
-                  <div className="d-flex justify-content-start">
-                    <h4 className="font-weight-bolder">Policy Period</h4>
-                  </div>
                   <div className="d-flex justify-content-start">
                     <div>
                       Choosing a multi-year plan saves your money and the
@@ -72,165 +54,237 @@ const SecondPage = () => {
 
                   {/* Three checkboxes with paragraphs */}
                   <div className="d-flex flex-row mt-3  ">
-                    <div className="d-flex align-items-center mb-2 ">
+                  <Col md="4" className="">
+                  <div className="d-flex align-items-end mb-2 orange-border ">
                       <input
                         type="checkbox"
                         id="checkbox1"
                         style={{
-                          marginRight: "15px",
+                          marginRight: "25px",
                           marginLeft: "25px",
                           transform: "scale(2.5)"
                         }}
                       />
                       <label htmlFor="checkbox1">1 Year @ Rs16,436</label>
                     </div>
-
-                    <div className="d-flex align-items-center mb-2 ">
+                  </Col>
+                  <Col md="4" className="">
+                  <div className="d-flex align-items-end mb-2 orange-border ">
                       <input
                         type="checkbox"
-                        id="checkbox2"
+                        id="checkbox1"
                         style={{
-                          marginRight: "15px",
+                          marginRight: "25px",
                           marginLeft: "25px",
                           transform: "scale(2.5)"
                         }}
                       />
-                      <label htmlFor="checkbox2">1 Year @ Rs16,436</label>
+                      <label htmlFor="checkbox1">1 Year @ Rs16,436</label>
                     </div>
-
-                    <div className="d-flex align-items-center mb-2 ">
+                  </Col>
+                  <Col md="4" className="">
+                  <div className="d-flex align-items-end mb-2 orange-border ">
                       <input
                         type="checkbox"
-                        id="checkbox3"
+                        id="checkbox1"
                         style={{
-                          marginRight: "15px",
+                          marginRight: "25px",
                           marginLeft: "25px",
                           transform: "scale(2.5)"
                         }}
                       />
-                      <label htmlFor="checkbox3">1 Year @ Rs16,436</label>
+                      <label htmlFor="checkbox1">1 Year @ Rs16,436</label>
+                    </div>
+                  </Col>
+                  </div>
+                  <div className="row justify-content-center">
+                  <div>
+                    Easy EMI options starting from ₹1,473/month. <span style={{ color: "orange" }}>View details ›</span>
                     </div>
                   </div>
                 </div>
-
+                <div className='row  rowtitle'>
+                <h2 className=" font-weight-bolder">Riders</h2></div>
                 <div className="container-content2">
                   {/* Title and paragraph */}
                   <div className="d-flex justify-content-start">
-                    <h4 className="font-weight-bolder">Rider(s)</h4>
+                    <div>
+                    you should get these additional benefits to enhance your current plan
+                    </div>
                   </div>
+                  {/* Two safe gaurd with paragraphs */}
+                  <div className="d-flex flex-row mt-3  ">
+                  <Col md="4" className="">
+                     <div className="d-flex align-items-end  container-row">
+                         {/* Row 1: Title */}
+                         <div className="title">Safeguard Benefit</div>
+                         </div>
+                         <div className="d-flex align-items-end  container-row6">
+                         {/* Row 2: Paragraph and Buttons */}
+                         <div>
+                         <div className="paragraph1"> <span>.</span>Helps inems in e item Helps in getting claiHelps inems in e item Helps in getting claiHelps inems in e item Helps in ms of non payable itee item Helps in getting claims Help  claims of non payable ite</div>
+                         <div className="buttons-container">
+                         <h4 className="self">Rs1,150</h4>
+                         <button className="Addbutton">  Add </button>
+                      </div>
+                     </div>
+                     </div>
+                    </Col>
+                  <Col md="4" className="">
+                     <div className="d-flex align-items-end  container-row">
+                         {/* Row 1: Title */}
+                         <div className="title">Safeguard +</div>
+                         </div>
+                         <div className="d-flex align-items-end  container-row6">
+                         {/* Row 2: Paragraph and Buttons */}
+                         <div>
+                         <div className="paragraph1"> <span>.</span>Helps inems in e item Helps in getting claiHelps inems in e item Helps in getting claiHelps inems in e item Helps in ms of non payable itee item Helps in getting claims Help  claims of non payable ite</div>
+                         <div className="buttons-container">
+                         <h4 className="self">Rs1,150</h4>
+                         <button className="Addbutton">  Add </button>
+                      </div>
+                     </div>
+                     </div>
+                    </Col>
+                  <Col md="4" className="">
+                     <div className="d-flex align-items-end  container-row">
+                         {/* Row 1: Title */}
+                         <div className="title">Acute - Best Consult</div>
+                         </div>
+                         <div className="d-flex align-items-end  container-row6">
+                         {/* Row 2: Paragraph and Buttons */}
+                         <div>
+                         <div className="paragraph1"> <span>.</span>Helps inems in e item Helps in getting claiHelps inems in e item Helps in getting claiHelps inems in e item Helps in ms of non payable itee item Helps in getting claims Help  claims of non payable ite</div>
+                         <div className="buttons-container">
+                         <h4 className="self">Rs1,150</h4>
+                         <button className="Addbutton">  Add </button>
+                      </div>
+                     </div>
+                     </div>
+                    </Col>
+
+                  </div>
+                </div>
+
+                <div className='row  rowtitle'>
+                <h2 className=" font-weight-bolder">Recommended Add-Ons</h2></div>
+                <div className="container-content2">
+                  {/* Title and paragraph */}
                   <div className="d-flex justify-content-start">
                     <div>
-                      you should get these additional benefits to enhance your
-                      current plan
+                    Add-ons are a smart way to enhance your cover at a fraction of the cost.
                     </div>
                   </div>
+                  {/* Two safe gaurd with paragraphs */}
+                  <div className="d-flex flex-row mt-3  ">
+                  <Col md="4" className="">
+                     <div className="d-flex align-items-end  container-row">
+                         {/* Row 1: Title */}
+                         <div className="title">Super Mediclaim</div>
+                         </div>
+                         <div className="d-flex align-items-center flex-column container-row6">
+        {/* Row 2: Image, Paragraph, and Buttons */}
+                             <div className="image-paragraph-container">
+                             <div className="image-container">
+                             <img
+                              src="https://img.freepik.com/premium-vector/medical-service-logo-vector-file_679076-167.jpg?w=740"
+                              alt="Your Image"
+                              className="center-image"
+                                  />
+                     </div>
+                       <div>
+                        <div className="paragraph">Super Mediclaim - Cancer Indemnity</div>
+                          <div className="buttons-container">
+                            <h4 className="self">Self</h4>
 
-                  {/* ---------------Inner Content start------------- */}
-                  <div className="container-content1">
-                    <div className="d-flex justify-content-start">
-                      <div className="font-weight-bolder">
-                        Safeguard Benefit
-                      </div>
-                    </div>
-                    <div className="d-flex justify-content-start">
-                      <div>
-                        Helps in getting claims of non-payable items , no impact
-                        on NCB if the claim is up to 50,000, and guarantee CPI
-                        linked increase in Base SI.
-                      </div>
-                    </div>
+                                   {/* Dropdown for Button 2 */}
+                             <DropdownButton title="20L" id="dropdown-button" className="dropdown-button">
+                             <Dropdown.Item>25L</Dropdown.Item>
+                             <Dropdown.Item>35L</Dropdown.Item>
+                             <Dropdown.Item>45L</Dropdown.Item>
+                            </DropdownButton>
 
-                    <div className="d-flex flex-row mt-3 ">
-                      <div className="d-flex align-items-center mb-2">
-                        <button
-                          className="btn btn-outline-primary"
-                          style={{
-                            marginRight: "15px",
-                            marginLeft: "25px",
-                            padding: "8px 12px",
-                            fontSize: "16px"
-                          }}
-                        >
-                          Rs 1150
-                        </button>
+                              <button className="Addbutton">Add</button>
+                             </div>
+                          </div>
                       </div>
+                   </div>
+                    </Col>
+                    <Col md="4" className="">
+                     <div className="d-flex align-items-end  container-row">
+                         {/* Row 1: Title */}
+                         <div className="title">OPD Care</div>
+                         </div>
+                         <div className="d-flex align-items-center flex-column container-row6">
+        {/* Row 2: Image, Paragraph, and Buttons */}
+                             <div className="image-paragraph-container">
+                             <div className="image-container">
+                             <img
+                              src="https://qmedicalcenter.in/wp-content/uploads/2018/11/StarHealth.jpeg"
+                              alt="Your Image"
+                              className="center-image"
+                                  />
+                     </div>
+                       <div>
+                        <div className="paragraph">OPD Care - Silver4 years PED waiting period</div>
+                          <div className="buttons-container">
+                            <h4 className="self">All</h4>
 
-                      <div className="d-flex align-items-center mb-2">
-                        <button
-                          className="btn btn-outline-primary"
-                          style={{
-                            marginRight: "15px",
-                            marginLeft: "25px",
-                            padding: "8px 12px",
-                            fontSize: "16px"
-                          }}
-                        >
-                          +Add
-                        </button>
+                                   {/* Dropdown for Button 2 */}
+                             <DropdownButton title="35k" id="dropdown-button" className="dropdown-button">
+                             <Dropdown.Item>25k</Dropdown.Item>
+                             <Dropdown.Item>35k</Dropdown.Item>
+                             <Dropdown.Item>45k</Dropdown.Item>
+                            </DropdownButton>
+
+                              <button className="Addbutton">Add</button>
+                             </div>
+                          </div>
                       </div>
-                    </div>
+                   </div>
+                    </Col>
+                    <Col md="4" className="">
+                     <div className="d-flex align-items-end  container-row">
+                         {/* Row 1: Title */}
+                         <div className="title">Critical Illness</div>
+                         </div>
+                         <div className="d-flex align-items-center flex-column container-row6">
+        {/* Row 2: Image, Paragraph, and Buttons */}
+                             <div className="image-paragraph-container">
+                             <div className="image-container">
+                             <img
+                              src="https://pnclogosofficial.s3.us-west-2.amazonaws.com/2020/10/09140753/insurance-logos-10.jpg"
+                              alt="Your Image"
+                              className="center-image"
+                                  />
+                     </div>
+                       <div>
+                        <div className="paragraph">Critical Illness - 20 critical illnesses covered</div>
+                          <div className="buttons-container">
+                            <h4 className="self">Self</h4>
+
+                                   {/* Dropdown for Button 2 */}
+                             <DropdownButton title="20L" id="dropdown-button" className="dropdown-button">
+                             <Dropdown.Item>25L</Dropdown.Item>
+                             <Dropdown.Item>35L</Dropdown.Item>
+                             <Dropdown.Item>45L</Dropdown.Item>
+                            </DropdownButton>
+
+                              <button className="Addbutton">Add</button>
+                             </div>
+                          </div>
+                      </div>
+                   </div>
+                    </Col>
+
                   </div>
-                  <div className="container-content1">
-                    <div className="d-flex justify-content-start">
-                      <div className="font-weight-bolder">
-                        Safeguard<span style={{ fontSize: "30px" }}>+</span>
-                      </div>
-                    </div>
-                    <div className="d-flex justify-content-start">
-                      <div>
-                        <span
-                          style={{ marginRight: "0.5em", fontSize: "1.5em" }}
-                        >
-                          •
-                        </span>
-                        Non-payable items will be covered(as per list
-                        I,II,III,IV of Annexure I) <br />
-                        <span
-                          style={{ marginRight: "0.5em", fontSize: "1.5em" }}
-                        >
-                          •
-                        </span>{" "}
-                        No impact on Booster + if claim in a policy year is
-                        le...
-                      </div>
-                    </div>
-                    <div className="d-flex flex-row mt-3 ">
-                      <div className="d-flex align-items-center mb-2">
-                        <button
-                          className="btn btn-outline-primary"
-                          style={{
-                            marginRight: "15px",
-                            marginLeft: "25px",
-                            padding: "8px 12px",
-                            fontSize: "16px"
-                          }}
-                        >
-                          Rs 1150
-                        </button>
-                      </div>
-
-                      <div className="d-flex align-items-center mb-2">
-                        <button
-                          className="btn btn-outline-primary"
-                          style={{
-                            marginRight: "15px",
-                            marginLeft: "25px",
-                            padding: "8px 12px",
-                            fontSize: "16px"
-                          }}
-                        >
-                          +Add
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  {/* ---------------Inner Content End------------- */}
                 </div>
+
               </Col>
             </Row>
           </div>
         </Col>
-
+{/* ----------------------------------------------------------------------------------------------------------------------------------------- */}
         <Col md="4">
           {/* New column for the image */}
           <div className="orange-container">

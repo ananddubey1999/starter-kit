@@ -89,3 +89,20 @@
 
 
 /* ----------------------SecondPage1 Css End------------------- */
+.rowtitle {
+  background-color: #7c7c7c; 
+  /* background-color: #f1a179;  */
+  border: 1px solid #ddd; /* Add border for better separation */
+  margin: 5px 0 ; /* Add some margin for spacing */
+  padding: 10px; /* Adjust padding as needed */
+  border-top-right-radius: 8px; /* Add border-radius for rounded corners */
+  border-top-left-radius: 8px;
+  margin-bottom: 0
+}
+
+.rowtitle h2 {
+  font-size: 20px;
+  color: white;
+  /* color: black; */
+  margin: 0; /* Remove default margin for the heading */
+}
