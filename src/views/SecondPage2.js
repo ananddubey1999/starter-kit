@@ -176,14 +176,14 @@ const SecondPage = () => {
                     </div>
                   </div>
                   {/* Two safe gaurd with paragraphs */}
-                  <div className="d-flex flex-row mt-3  ">
+                   <div className="d-flex flex-row mt-3  ">
                   <Col md="4" className="">
                      <div className="d-flex align-items-end  container-row">
                          {/* Row 1: Title */}
                          <div className="title">Super Mediclaim</div>
                          </div>
                          <div className="d-flex align-items-center flex-column container-row6">
-        {/* Row 2: Image, Paragraph, and Buttons */}
+                          {/* Row 2: Image, Paragraph, and Buttons */}
                              <div className="image-paragraph-container">
                              <div className="image-container">
                              <img
@@ -249,7 +249,7 @@ const SecondPage = () => {
                          <div className="title">Critical Illness</div>
                          </div>
                          <div className="d-flex align-items-center flex-column container-row6">
-        {/* Row 2: Image, Paragraph, and Buttons */}
+                         {/* Row 2: Image, Paragraph, and Buttons */}
                              <div className="image-paragraph-container">
                              <div className="image-container">
                              <img
