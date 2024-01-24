@@ -279,7 +279,6 @@ const SecondPage = () => {
 
                   </div>
                 </div>
-
               </Col>
             </Row>
           </div>
