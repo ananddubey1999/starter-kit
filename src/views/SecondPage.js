@@ -452,3 +452,100 @@ const SecondPage = () => {
 }
 
 export default SecondPage 
+
+
+// <Col md="4">
+// {/* New column for the image */}
+// <div className="orange-container">
+//   <div className="d-flex justify-content-start align-items-center">
+//     <div className="container-content">
+//       <h2 className="d-flex justify-content-start align-items-center ">
+//         Order Summary
+//       </h2>
+//       <Row>
+//         <Col md="8">
+//           <div className="d-flex justify-content-start align-items-center">
+//             <p>Base Premium- 1year</p>
+//           </div>
+//         </Col>
+//         <Col md="4">
+//           <p>Rs 16,436</p>
+//         </Col>
+//       </Row>  
+//       <div className="d-flex justify-content-start align-items-center">
+//         <h3>Select Rider(s)</h3>
+//       </div>
+//       <Row>
+//         <Col md="8">
+//           <div className="d-flex justify-content-start align-items-center">
+//             <p>Safeguard Benefit</p>
+//           </div>
+//         </Col>
+//         <Col md="4">
+//           <p>Rs 14,102</p>
+//         </Col>
+//       </Row>
+//       <Row>
+//         <Col md="8">
+//           <div className="d-flex justify-content-start align-items-center">
+//             <p>Safeguard +</p>
+//           </div>
+//         </Col>
+//         <Col md="4">
+//           <p>Rs 11,436</p>
+//         </Col>
+//       </Row>
+//       <Row>
+//         <Col md="12">
+//           <div className="d-flex justify-content-start align-items-center">
+//             <h3>Select Add-ons</h3>
+//           </div>
+//         </Col>
+//         <Col md="12">
+//           <div className="d-flex justify-content-start align-items-center">
+//             <Form.Control
+//               type="text"
+//               placeholder="No add-ons Selected"
+//               className="w-75"
+//             />
+//           </div>
+//         </Col>
+//       </Row>
+//       <Row>
+//         <Col md="12">
+//           <div className="d-flex justify-content-start align-items-center">
+//             <h3>Posrt Existing Policy</h3>
+//           </div>
+//         </Col>
+//         <Col md="12">
+//           <div className="d-flex justify-content-start align-items-center">
+//             <p>
+//               <input type="checkbox" />
+//               Checkbox Paragraph
+//             </p>
+//           </div>
+//         </Col>
+//       </Row>
+//       <Row>
+//         <Col md="7">
+//           <div className="d-flex justify-content-start align-items-center">
+//             <h3>Total premium</h3>
+//           </div>
+//         </Col>
+//         <Col md="4">
+//           <h3>Rs 25,132</h3>
+//         </Col>
+//       </Row>
+//       <Row>
+//         <Col md="12">
+//           <div className="d-flex justify-content-center align-items-center ">
+//             <Button variant="primary" className="btn-small-width">
+//               Proceed to proposal
+//             </Button>
+//           </div>
+//         </Col>
+//       </Row>
+//     </div>
+//   </div>
+// </div>
+// </Col>

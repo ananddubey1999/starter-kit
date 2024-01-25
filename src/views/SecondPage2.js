@@ -1,24 +1,25 @@
 import React from "react"
 import { Row, Col, Button, Form, Dropdown, DropdownButton } from "react-bootstrap"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import "./SecondPage2.css"
 
 const SecondPage = () => {
   return (
     <div className="bg-white">
+      <Row>
+         <div className="d-flex justify-content-start ">
+           <h2 className="font-weight-bolder ml-2">
+           <FontAwesomeIcon icon={faArrowLeft} className="mr-0" /> Go back to quots
+           </h2>
+         </div>
+      </Row>
       <Row style={{ maxWidth: "100%", margin: "0 auto" }}>
-        <Col md="8" className="border ">
+        <Col md="8" className="border-Top frame " style={{ borderTop: '3px solid black' }}>
           {/* New column with a container */}
           <div className="d-flex flex-column ">
             <Row>
               <Col md="12">
-                <Row>
-                <div className="d-flex justify-content-start ">
-                <h2 className="font-weight-bolder underline-title">
-                  Go back to quots
-                </h2>
-              </div>
-                </Row>
                 {/* ----------------------------Policy Period------------------ */}
                 <div className='row  rowtitle'>
                 <h2 className=" font-weight-bolder">Max Saver 2.0</h2></div>
@@ -99,7 +100,7 @@ const SecondPage = () => {
                   </div>
                   <div className="row justify-content-center">
                   <div>
-                    Easy EMI options starting from ₹1,473/month. <span style={{ color: "orange" }}>View details ›</span>
+                    Easy EMI options starting from ₹1,473/month. <span style={{ color: "#6273f1" }}>View details ›</span>
                     </div>
                   </div>
                 </div>
@@ -287,14 +288,15 @@ const SecondPage = () => {
         <Col md="4">
           {/* New column for the image */}
           <div className="orange-container">
-            <div className="d-flex justify-content-start align-items-center">
               <div className="container-content">
-                <h2 className="d-flex justify-content-start align-items-center ">
+                <Row>
+                <h2 className="d-flex justify-content-center align-items-center ml-1">
                   Order Summary
                 </h2>
+                </Row>
                 <Row>
                   <Col md="8">
-                    <div className="d-flex justify-content-start align-items-center">
+                    <div className="d-flex justify-content-start align-items-center ml-1">
                       <p>Base Premium- 1year</p>
                     </div>
                   </Col>
@@ -302,12 +304,14 @@ const SecondPage = () => {
                     <p>Rs 16,436</p>
                   </Col>
                 </Row>
-                <div className="d-flex justify-content-start align-items-center">
+                <Row>
+                <div className="d-flex justify-content-start align-items-center ml-2">
                   <h3>Select Rider(s)</h3>
                 </div>
+                </Row>
                 <Row>
                   <Col md="8">
-                    <div className="d-flex justify-content-start align-items-center">
+                    <div className="d-flex justify-content-start align-items-center ml-1">
                       <p>Safeguard Benefit</p>
                     </div>
                   </Col>
@@ -317,48 +321,46 @@ const SecondPage = () => {
                 </Row>
                 <Row>
                   <Col md="8">
-                    <div className="d-flex justify-content-start align-items-center">
+                    <div className="d-flex justify-content-start align-items-center ml-1">
                       <p>Safeguard +</p>
                     </div>
                   </Col>
                   <Col md="4">
-                    <p>Rs 11,436</p>
+                    <p>Rs 14,102</p>
                   </Col>
                 </Row>
                 <Row>
-                  <Col md="12">
-                    <div className="d-flex justify-content-start align-items-center">
-                      <h3>Select Add-ons</h3>
+                <div className="d-flex justify-content-start align-items-center ml-2">
+                  <h3>Select Add-ons</h3>
+                </div>
+                </Row>
+                <Row>
+                  <Col md="8">
+                    <div className="d-flex justify-content-start align-items-center ml-1">
+                      <p>Critical illness</p>
                     </div>
                   </Col>
-                  <Col md="12">
-                    <div className="d-flex justify-content-start align-items-center">
-                      <Form.Control
-                        type="text"
-                        placeholder="No add-ons Selected"
-                        className="w-75"
-                      />
-                    </div>
+                  <Col md="4">
+                    <p>Rs 10,102</p>
                   </Col>
                 </Row>
                 <Row>
+                <div className="d-flex justify-content-start align-items-center ml-2">
+                  <h3>Post Existing Policy</h3>
+                </div>
+
                   <Col md="12">
-                    <div className="d-flex justify-content-start align-items-center">
-                      <h3>Posrt Existing Policy</h3>
-                    </div>
-                  </Col>
-                  <Col md="12">
-                    <div className="d-flex justify-content-start align-items-center">
+                    <div className="d-flex justify-content-start align-items-center ml-2">
                       <p>
                         <input type="checkbox" />
-                        Checkbox Paragraph
+                        I want to port my existing policy
                       </p>
                     </div>
                   </Col>
                 </Row>
                 <Row>
                   <Col md="7">
-                    <div className="d-flex justify-content-start align-items-center">
+                    <div className="d-flex justify-content-start align-items-center ml-1">
                       <h3>Total premium</h3>
                     </div>
                   </Col>
@@ -366,7 +368,9 @@ const SecondPage = () => {
                     <h3>Rs 25,132</h3>
                   </Col>
                 </Row>
-                <Row>
+              </div>  
+              <div className="container-content4">
+              <Row>
                   <Col md="12">
                     <div className="d-flex justify-content-center align-items-center ">
                       <Button variant="primary" className="btn-small-width">
@@ -375,8 +379,7 @@ const SecondPage = () => {
                     </div>
                   </Col>
                 </Row>
-              </div>
-            </div>
+                </div>        
           </div>
         </Col>
       </Row>

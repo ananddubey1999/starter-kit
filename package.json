@@ -5,6 +5,7 @@
   "dependencies": {
     "@casl/ability": "5.2.2",
     "@casl/react": "2.1.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@fullcalendar/core": "5.7.2",
