@@ -15,15 +15,18 @@ const SecondPage = () => {
          </div>
       </Row>
       <Row style={{ maxWidth: "100%", margin: "0 auto" }}>
+
+        {/*------------ From here divided the Row into col-> 8 for left content and co->4 for right content ----------------- */}
+
         <Col md="8" className="border-Top frame " style={{ borderTop: '3px solid black' }}>
           {/* New column with a container */}
           <div className="d-flex flex-column ">
             <Row>
               <Col md="12">
-                {/* ----------------------------Policy Period------------------ */}
-                <div className='row  rowtitle'>
-                <h2 className=" font-weight-bolder">Max Saver 2.0</h2></div>
-                <div className="container-content2">
+                {/* ----------------------------Max Saver 2.0------------------ */}
+       <div className='row  rowtitle'>
+       <h2 className=" font-weight-bolder">Max Saver 2.0</h2></div>
+      <div className="container-content2">
       <Row>
         {/* First Column: Paragraph and Button */}
         <Col md="8">
@@ -41,6 +44,8 @@ const SecondPage = () => {
         </Col>
       </Row>
     </div>
+                {/* ---------------------------End------------------------- */}
+    
                 {/* ----------------------------Policy Period------------------ */}
                 <div className='row  rowtitle'>
                 <h2 className=" font-weight-bolder">Policy Period</h2></div>
@@ -104,6 +109,9 @@ const SecondPage = () => {
                     </div>
                   </div>
                 </div>
+                {/* -------------------------------End---------------------------------- */}
+
+                {/* ---------------------------------- Riders ------------------------------ */}
                 <div className='row  rowtitle'>
                 <h2 className=" font-weight-bolder">Riders</h2></div>
                 <div className="container-content2">
@@ -166,7 +174,9 @@ const SecondPage = () => {
 
                   </div>
                 </div>
+                {/*  -----------------------End------------------- */}
 
+                {/* -------------Recommended Add-Ons---------------- */}
                 <div className='row  rowtitle'>
                 <h2 className=" font-weight-bolder">Recommended Add-Ons</h2></div>
                 <div className="container-content2">
@@ -280,6 +290,8 @@ const SecondPage = () => {
 
                   </div>
                 </div>
+               {/* ------------------End---------------------- */}
+
               </Col>
             </Row>
           </div>
@@ -389,3 +401,25 @@ const SecondPage = () => {
 
 export default SecondPage 
                                                                             
+
+/*
+ <Row style={{ maxWidth: "100%", margin: "0 auto" }}>
+
+ <Col md="12">
+ </Col>
+
+ <Col md="4">
+  <Row>
+     <Col md="8">
+      <div className="d-flex justify-content-start align-items-center ml-1">
+      <p>Base Premium- 1year</p>
+      </div>
+      </Col>
+      <Col md="4">
+      <p>Rs 16,436</p>
+     </Col>
+   </Row>
+ </Col>
+</Row>
+
+*/ 
