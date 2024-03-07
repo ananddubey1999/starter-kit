@@ -24,5 +24,17 @@ export default [
     title: 'Second Page2',
     icon: <Mail size={20} />,
     navLink: '/second-page2'
+  },
+  {
+    id: 'Learning',
+    title: 'Learning',
+    icon: <Mail size={20} />,
+    navLink: '/Learning'
+  },
+  {
+    id: 'OfflinePolicy',
+    title: 'OfflinePolicy',
+    icon: <Mail size={20} />,
+    navLink: '/OfflinePolicy'
   }
 ]

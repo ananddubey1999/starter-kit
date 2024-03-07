@@ -1,0 +1,22 @@
+.button-container {
+    width: 550px; /* Adjust the container width as needed */
+    overflow-y: auto;
+    max-height: 300px; /* Adjust the max height as needed */
+    border: 2px solid black;
+    margin: auto;
+  }
+  
+  .button-row {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 10px; /* Adjust the margin between rows as needed */
+    margin-right: 5px;
+  }
+  
+  .bbtn {
+    padding: 5px 10px;
+    width: 200px;
+    margin-top: 10px;
+  }
+  

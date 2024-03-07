@@ -25,6 +25,14 @@ const Routes = [
     component: lazy(() => import('../../views/SecondPage2'))
   },
   {
+    path: '/Learning',
+    component: lazy(() => import('../../views/Learning'))
+  },
+  {
+    path: '/OfflinePolicy',
+    component: lazy(() => import('../../views/OfflinePolicy'))
+  },
+  {
     path: '/login',
     component: lazy(() => import('../../views/Login')),
     layout: 'BlankLayout',
