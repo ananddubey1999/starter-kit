@@ -36,5 +36,17 @@ export default [
     title: 'OfflinePolicy',
     icon: <Mail size={20} />,
     navLink: '/OfflinePolicy'
+  },
+  {
+    id: 'Dashboard',
+    title: 'Dashboard',
+    icon: <Mail size={20} />,
+    navLink: '/Dashboard'
+  },
+  {
+    id: 'SellNow',
+    title: 'SellNow',
+    icon: <Mail size={20} />,
+    navLink: '/SellNow'
   }
 ]

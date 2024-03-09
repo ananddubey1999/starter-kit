@@ -359,6 +359,31 @@ function OfflinePolicy() {
     </Row>
          </div>
          {/* ----------Fourth Row End--------- */}
+                   {/* ---------------fourth Row Start from here-------------------- */}
+        {/* ---------details---------- */}
+        <div className="bg-dark text-light w-100 p-3">
+        <Row>
+          <Col md={4}>
+            {/* Your footer content goes here */}
+            <p>Footer Section 1</p>
+            <p>Footer content</p>
+            <p>More footer content</p>
+          </Col>
+          <Col md={4}>
+            {/* Additional footer content */}
+            <p>Footer Section 2</p>
+            <p>Additional content</p>
+            <p>More content</p>
+          </Col>
+          <Col md={4}>
+            {/* Additional footer content */}
+            <p>Footer Section 3</p>
+            <p>More content</p>
+            <p>Even more content</p>
+          </Col>
+        </Row>
+      </div>
+        {/* -----------End-------- */}
       </Row>  
     </div>
   )

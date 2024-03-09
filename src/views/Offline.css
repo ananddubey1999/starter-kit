@@ -1,6 +1,8 @@
 .container-content2 {
-    background-color: rgb(237, 234, 234);
+    background-color: rgb(240, 249, 253);
     padding: 15px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     border-bottom-right-radius: 5px; /* Add border-radius for rounded corners */
     border-bottom-left-radius: 5px;
     margin-bottom: 1%;
@@ -11,7 +13,7 @@
     margin-right: 16px;
   }
 .container-content3 {
-    background-color: rgb(237, 234, 234);
+    background-color: rgb(240, 249, 253); 
     padding: 15px;
     border-bottom-right-radius: 5px; /* Add border-radius for rounded corners */
     border-bottom-left-radius: 5px;
@@ -33,3 +35,52 @@
     border-radius: 4px;
     cursor: pointer;
   }
+
+  /* ----------------Dashboard CSS start------------------ */
+  .multiColorBackground {
+    background: linear-gradient(to right, #d9eff0, #e9e3ce, #f4e7dc, #c2d5de);
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+  .box{
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+  .Innerbox{
+    background: rgb(171, 170, 170);
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    color: white;
+ }
+  .Innerbox1{
+    background: white;
+    border: 1px solid black;
+ }
+  .Innerbox2{
+    background: white;
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+
+ }
+ .Addbutton1 {
+  height: 30px;
+  padding: 5px 10px;
+  width: auto;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  color: white;
+  border: 2px solid orange; /* Change border style to solid orange */
+  color: orange;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.selected {
+  background-color: rgb(127, 127, 235);
+  color: white;
+  /* Add any other styles for the selected state */
+}
+
+ /* ----------------Dashboard CSS start------------------ */

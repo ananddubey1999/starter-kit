@@ -33,6 +33,14 @@ const Routes = [
     component: lazy(() => import('../../views/OfflinePolicy'))
   },
   {
+    path: '/Dashboard',
+    component: lazy(() => import('../../views/Dashboard'))
+  },
+  {
+    path: '/SellNow',
+    component: lazy(() => import('../../views/SellNow'))
+  },
+  {
     path: '/login',
     component: lazy(() => import('../../views/Login')),
     layout: 'BlankLayout',
