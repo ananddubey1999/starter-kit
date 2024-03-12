@@ -44,9 +44,9 @@ export default [
     navLink: '/Dashboard'
   },
   {
-    id: 'SellNow',
-    title: 'SellNow',
+    id: 'Myticket',
+    title: 'Myticket',
     icon: <Mail size={20} />,
-    navLink: '/SellNow'
+    navLink: '/Myticket'
   }
 ]

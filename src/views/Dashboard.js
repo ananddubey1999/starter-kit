@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import { Row, Col, Dropdown, DropdownButton, Form, Button, CardBody } from "react-bootstrap"
+import { Row, Col, Dropdown, DropdownButton, Form, Button, CardBody, Carousel } from "react-bootstrap"
 import "./Offline.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCar, faTruck, faMotorcycle, faHeartbeat, faPlane, faQuestionCircle, faFileAlt, faDollarSign, faCheckSquare } from '@fortawesome/free-solid-svg-icons'
 import { Card } from 'reactstrap'
+import { Link } from 'react-router-dom'
 
 function Dashboard() {
   const [selectedButton, setSelectedButton] = useState(null)
@@ -14,21 +15,14 @@ function Dashboard() {
   const videoId = 'https://youtu.be/DG48l81SWjQ?si=NUtfmK09K-K-URj6'
   return (
     <div >
-      <Row style={{ border: "1px solid gray", borderRadius: "10px 10px 0 0" }} className="bg-white">
-        <div className="d-flex justify-content-start ">
-          <h4 className="font-weight-bold ml-2">
-            Quote Request Form
-          </h4>
-        </div>
-      </Row>
       {/* ---------Contenet Start from here--------- */}
       <Row style={{ border: "1px solid gray", borderRadius: "0px 0px 10px 10px", height: "auto" }} className="bg-white">
 
         {/* ---------------First Row Start from here-------------------- */}
         <Row>
           <div className="d-flex justify-content-start ">
-            <h5 className="font-weight-bold ml-3">
-              VEHICLE TYPE
+            <h5 className="font-weight-bolder ml-3 pt-1">
+              SELL INSURANCE
             </h5>
           </div>
         </Row>
@@ -67,44 +61,31 @@ function Dashboard() {
             </Col>
             {/* -------half of the Row--------- */}
             <Col  className='justify-content-start align-items-start mr-1'>
-              <Row className='mt-1 multiColorBackground justify-content-start align-items-start' style={{ height: "250px" }} >
-                <Col md="5" className='mt-4 ml-2'>
-                  <p> Save the hassle of mapping and get instant payout</p>
-                  <Button variant="primary">Click Me</Button>
-                </Col>
-                <Col className='mt-1 '>
-                  <Card>
-                      <CardBody style={{height:"30px", width:"auto"}} className='justify-content-center align-items-center'>
-                      <h4 className="justify-content-center align-items-center" style={{fontSize:"12px"}}>Private car</h4>
-                      </CardBody>
-                    </Card>
-                  <Card>
-                      <CardBody style={{height:"30px", width:"auto"}} className='justify-content-center align-items-center'>
-                      <h4 className="justify-content-center align-items-center" style={{fontSize:"12px"}}>Private car</h4>
-                      </CardBody>
-                    </Card>
-                  <Card>
-                      <CardBody style={{height:"30px", width:"auto"}} className='justify-content-center align-items-center'>
-                      <h4 className="justify-content-center align-items-center" style={{fontSize:"12px"}}>Private car</h4>
-                      </CardBody>
-                    </Card>
-                </Col>
+              <Row className='justify-content-start align-items-start' style={{ height: "250px" }} >             
                 <Col  className='mt-1 '>
-                  <Card>
-                      <CardBody style={{height:"30px", width:"auto"}} className='justify-content-center align-items-center'>
-                      <h4 className="justify-content-center align-items-center" style={{fontSize:"12px"}}>Private car</h4>
-                      </CardBody>
-                    </Card>
-                  <Card>
-                      <CardBody style={{height:"30px", width:"auto"}} className='justify-content-center align-items-center'>
-                      <h4 className="justify-content-center align-items-center" style={{fontSize:"12px"}}>Private car</h4>
-                      </CardBody>
-                    </Card>
-                  <Card>
-                      <CardBody style={{height:"30px", width:"auto"}} className='justify-content-center align-items-center'>
-                      <h4 className="justify-content-center align-items-center" style={{fontSize:"12px"}}>Private car</h4>
-                      </CardBody>
-                    </Card>
+                <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 carousel-img"
+            src="https://images.moneycontrol.com/static-mcnews/2021/11/Health-insurance.jpg?impolicy=website&width=1600&height=900"
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 carousel-img"
+            src="https://media.licdn.com/dms/image/D5612AQFZ__0ET5bDTg/article-cover_image-shrink_720_1280/0/1676182506504?e=2147483647&v=beta&t=uGyCr1parvGndt4qfqmkAM-f7FKKap4dQn1wyuDY4w8"
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 carousel-img"
+            src="https://www.mymudra.com/cms/public/storage/posts/January2024/tF9ViKjoiSrXSUH6OTEL.webp"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+      </Carousel>
                </Col>
               </Row>
             </Col>
@@ -114,18 +95,18 @@ function Dashboard() {
         {/* ---------------Second Row Start from here-------------------- */}
         <Row>
           <div className="d-flex justify-content-start ">
-            <h5 className="font-weight-bold ml-3">
-              MY ACTIONABLRS
+            <h5 className="font-weight-bolder ml-3">
+              MY ACTIONABLES
             </h5>
           </div>
         </Row>
         {/* ---------details---------- */}
-        <div className="container-content2">
+        <div className="container-content21">
           <Row>
             <Col md="4" >
               <Card className="p-0">
                 <CardBody className="p-0 mr-1">
-                <Row className=" justify-content-center align-items-start Innerbox">
+                <Row className=" justify-content-center align-items-start Innerbox" style={{padding:"5px"}}>
                 <h3>Support Tickects</h3>
               </Row>
               <Row className=" justify-content-start align-items-start Innerbox1">
@@ -181,7 +162,9 @@ function Dashboard() {
                 </Col>
               </Row>
               <Row className=" justify-content-center align-items-start Innerbox2">
-                <button className='Addbutton1'>view more</button>
+              <Link to="/Myticket">
+               <button className='Addbutton1'>View All</button>
+                 </Link>
               </Row>
                 </CardBody>
               </Card>
@@ -191,7 +174,7 @@ function Dashboard() {
               <Card className="p-0">
                 <CardBody className="p-0 mr-1">
                 <Row className=" justify-content-center align-items-start Innerbox">
-                <h3>Support Tickects</h3>
+                <h3>Offline Requests</h3>
               </Row>
               <Row className=" justify-content-start align-items-start Innerbox1">
                 <Col md="7">
@@ -246,7 +229,9 @@ function Dashboard() {
                 </Col>
               </Row>
               <Row className=" justify-content-center align-items-start Innerbox2">
-                <button className='Addbutton1'>view more</button>
+              <Link to="/RequestList">
+               <button className='Addbutton1'>View All</button>
+                 </Link>
               </Row>
                 </CardBody>
               </Card>
@@ -255,8 +240,8 @@ function Dashboard() {
             <Col md="4" >
               <Card className="p-0">
                 <CardBody className="p-0">
-                <Row className=" justify-content-center align-items-start Innerbox">
-                <h3>Support Tickects</h3>
+                <Row className=" justify-content-center align-items-start Innerbox" style={{padding:"5px"}}>
+                <h3>Leads</h3>
               </Row>
               <Row className=" justify-content-start align-items-start Innerbox1">
                 <Col md="7">
@@ -311,7 +296,9 @@ function Dashboard() {
                 </Col>
               </Row>
               <Row className=" justify-content-center align-items-start Innerbox2">
-                <button className='Addbutton1'>view more</button>
+              <Link to="/Leads">
+               <button className='Addbutton1'>View All</button>
+                 </Link>    
               </Row>
                 </CardBody>
               </Card>
@@ -324,7 +311,7 @@ function Dashboard() {
            {/* ---------------third Row Start from here-------------------- */}
                <Row>
           <div className="d-flex justify-content-start ">
-            <h5 className="font-weight-bold ml-3">
+            <h5 className="font-weight-bolder ml-3">
               MY PERFORMANCE  
             </h5>
           </div>
@@ -397,7 +384,7 @@ function Dashboard() {
            {/* ---------------fourth Row Start from here-------------------- */}
                <Row>
           <div className="d-flex justify-content-start ">
-            <h5 className="font-weight-bold ml-3">
+            <h5 className="font-weight-bolder ml-3">
               USEFUL
             </h5>
           </div>
@@ -415,7 +402,7 @@ function Dashboard() {
              />
             </div>
 
-               {/* Other content in the Col */}
+               {/* Other content in the Col  */}
          </Col>
 
             {/* -------half of the Row--------- */}

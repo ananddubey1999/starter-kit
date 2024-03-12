@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCar, faTruck, faBicycle, faBus, faShuttleVan} from '@fortawesome/free-solid-svg-icons'
 
 
-function OfflinePolicy() {
+function OfflinePolicy() {  
   return (
     <div >
       <Row style={{border:"1px solid gray", borderRadius: "10px 10px 0 0"}} className="bg-white">
