@@ -48,5 +48,17 @@ export default [
     title: 'Myticket',
     icon: <Mail size={20} />,
     navLink: '/Myticket'
+  },
+  {
+    id: 'MappingRequest',
+    title: 'MappingRequest',
+    icon: <Mail size={20} />,
+    navLink: '/MappingRequest'
+  },
+  {
+    id: 'ViewMappingReq',
+    title: 'ViewMappingReq',
+    icon: <Mail size={20} />,
+    navLink: '/ViewMappingReq'
   }
 ]

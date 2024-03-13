@@ -402,7 +402,7 @@ function Dashboard() {
              />
             </div>
 
-               {/* Other content in the Col  */}
+               {/* Other content in the Col */}
          </Col>
 
             {/* -------half of the Row--------- */}

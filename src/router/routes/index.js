@@ -49,6 +49,14 @@ const Routes = [
     component: lazy(() => import('../../views/Leads'))
   },
   {
+    path: '/MappingRequest',
+    component: lazy(() => import('../../views/MappingRequest'))
+  },
+  {
+    path: '/ViewMappingReq',
+    component: lazy(() => import('../../views/ViewMappingReq'))
+  },
+  {
     path: '/login',
     component: lazy(() => import('../../views/Login')),
     layout: 'BlankLayout',
