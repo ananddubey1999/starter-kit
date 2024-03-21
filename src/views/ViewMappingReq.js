@@ -178,7 +178,7 @@
        <td className='text-nowrap'>abc@gmail.com</td>
        <td className='text-nowrap'>N/A</td>
        <td className='text-nowrap'>N/A</td>
-       <td className='text-nowrap'>Additional Doc Req.</td>
+       <td className='text-nowrap'>Additional Req.</td>
        <td className='text-nowrap'>N/A</td>
        <td className='text-nowrap'>2024-03-05</td>
        <td className='text-nowrap'>2024-04-09</td>

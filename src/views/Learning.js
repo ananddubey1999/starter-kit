@@ -5,7 +5,7 @@ function Learning() {
     const colStyle = {
         backgroundColor: 'gray',
         border: '1px solid black', // You can adjust the border style as needed
-        padding: '10px' // Add padding for better appearance
+        padding: '10px' //    Add padding for better appearance
       }
   return (
     <div>

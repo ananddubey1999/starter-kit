@@ -11,7 +11,7 @@
        </h4>
      </div>
     </Row>
-     {/* ------Row 2---------  */}
+     {/* ------Row 2-------------  */}
     
      <Row style={{borderLeft: "1px solid gray", borderRight: "1px solid gray", borderRadius: "0px 0px 0px 0px", height: "auto" }} className="bg-white pt-2">
          <Col md="3">

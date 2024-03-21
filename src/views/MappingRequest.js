@@ -46,7 +46,7 @@
             </Form.Group>
         </Col>
     </Row>
-    
+    {/* --------------------- */}
      <Row style={{borderLeft: "1px solid gray", height: "auto" }} className="bg-white pt-2">
         <Col md="4">
             <Form.Group controlId="input1" style={{fontWeight:"bold"}}>
